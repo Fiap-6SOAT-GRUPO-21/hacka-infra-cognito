@@ -59,7 +59,7 @@ resource "aws_cognito_user_pool_client" "cognito_appclient" {
 # Adding an user
 resource "aws_cognito_user" "example_user" {
   user_pool_id = aws_cognito_user_pool.user_pool.id
-  username     = "Teste"
+  username     = "+5517996197451"
   password     = "Teste123!"
 
   attributes = {
